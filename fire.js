@@ -142,3 +142,8 @@ function windowResized(){
 	ctx.fillStyle = "#000000";
 	ctx.fillRect(0, 0, width, height);
 }
+
+function sound(){
+    var snd = new Audio('music.mp3')//wav is also supported
+    snd.play()//plays the sound
+}
